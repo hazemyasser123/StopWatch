@@ -1,0 +1,69 @@
+body{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#myH1{
+    font-size: 4rem;
+    font-family: Arial,sans-serif;
+    color: hsl(0,0%,25%);
+}
+
+#Container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 5px solid ;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0,0%,25%) ;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px; 
+}
+
+
+#controls{
+    margin-inline: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+button{
+    font-size: 20px;
+    color: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s ease-in;
+}
+
+#startbtn{
+    background-color: green;
+}
+#stoptbtn{
+    background-color: red;
+}
+#resetbtn{
+    background-color: blue;
+}
+
+button:hover{
+    opacity: 1;
+}
